@@ -21,4 +21,8 @@ O destino do Titanic foi selado em sua viagem inaugural de Southampton, na Ingla
 - cabin number: Número da cabine no Titanic
 - embarked: Porto de embarque C = Cherbourg, Q = Queenstown, S = Southampton
 
+Informações do dataset:
+- Total de registros: 1.309
+- Total de atributos: 12
+
 *A fonte do dataset é: https://www.kaggle.com/c/titanic/overview*
