@@ -10,19 +10,25 @@ O destino do Titanic foi selado em sua viagem inaugural de Southampton, na Ingla
 *Fonte: https://www.nationalgeographicbrasil.com/historia/2019/08/como-foi-o-naufragio-e-redescoberta-do-titanic*
 
 ### Dicionário de Dados
-- Survival: 0 = Não sobreviveu, 1 = Sobreviveu
-- pclass (Ticket class): 1 = Primeira Classe, 2 = Segunda Classe, 3 = Terceira Classe
-- sex: Sexo do passageiro
-- Age: Idade do passageiro
-- sibsp: Número de irmãos/Cônjugues a bordo do Titanic
-- parch: Pai ou mãe/Filhos a bordo do Titanic
-- ticket: Número da passagem
-- Passenger fare: Tarifa do passageiro
-- cabin number: Número da cabine no Titanic
-- embarked: Porto de embarque C = Cherbourg, Q = Queenstown, S = Southampton
+
+| Atributo  | Descrição | Métrica |
+| ------------- | ------------- | ------------- |
+| Survival | Marcador se o passageiro sobreviveu ou não | 0 = Não sobreviveu, 1 = Sobreviveu |
+| pclass (Ticket class)  | Classe que o passageiro estava embarcado  | 1 = Primeira Classe, 2 = Segunda Classe, 3 = Terceira Classe |
+| sex  | Sexo do passageiro  | Male/Female |
+| Age  | Idade do passageiro  | Numérico |
+| sibsp  | Número de irmãos/Cônjugues a bordo do Titanic  | Numérico |
+| parch  | Content Cell  | Pai ou mãe/Filhos a bordo do Titanic |
+| ticket  | Número da passagem  | Texto |
+| Passenger fare  | Tarifa do passageiro  | Numérico |
+| cabin number  | Número da cabine no Titanic  | Texto |
+| embarked  | Porto de embarque  | C = Cherbourg, Q = Queenstown, S = Southampton |
 
 Informações do dataset:
-- Total de registros: 1.309
-- Total de atributos: 12
+
+|  |  |
+| ------------- | ------------- |
+| Total de registros  | 1.309 |
+| Total de atributos  | 12 |
 
 *A fonte do dataset é: https://www.kaggle.com/c/titanic/overview*
